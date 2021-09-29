@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>uploud_task_api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.2.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\UploadedFile\1.jpg" />
+    <None Include="wwwroot\UploadedFile\57eb0251-3a8a-4733-b86f-63630a72bb6a_154288387_10158989449892863_4060260314537173775_n.jpg" />
+    <None Include="wwwroot\UploadedFile\7c3c683d-b1d9-44f2-9899-0123b3e3888a_151132805_3696182853830743_1952947104707622262_o.jpg" />
+    <None Include="wwwroot\UploadedFile\7eb27396-c5ce-4c0e-96c4-dd73dab18dbd_154288387_10158989449892863_4060260314537173775_n.jpg" />
+    <None Include="wwwroot\UploadedFile\8a710c1f-81be-463e-97a6-ef2279a495dc_154288387_10158989449892863_4060260314537173775_n.jpg" />
+    <None Include="wwwroot\UploadedFile\9fc08956-585c-4d6c-afd9-425b3bb97d03_154288387_10158989449892863_4060260314537173775_n.jpg" />
+    <None Include="wwwroot\UploadedFile\a1e92fd4-b368-421e-b5d4-3572dd459451_ShahinazMoamenCV.pdf" />
+    <None Include="wwwroot\UploadedFile\c7d881b4-5470-4d31-9644-3325a96fac98_154288387_10158989449892863_4060260314537173775_n.jpg" />
+    <None Include="wwwroot\UploadedFile\cca3464e-e24b-44d7-b9ac-e89aa2a5c86b_Algorithm Research.docx" />
+    <None Include="wwwroot\UploadedFile\f0c529dc-f745-4442-ad97-a802b1e471e0_151132805_3696182853830743_1952947104707622262_o.jpg" />
+    <None Include="wwwroot\UploadedFile\f5ebe83b-e216-4f41-beab-0b35d7bc455e_151132805_3696182853830743_1952947104707622262_o.jpg" />
+  </ItemGroup>
+
+
+</Project>
